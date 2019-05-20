@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\kinglib">
+      <UniqueIdentifier>{71369e4a-8c3f-454a-bdba-5c82895475ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kinglib">
+      <UniqueIdentifier>{6821ade4-45c6-4243-9e66-0f5cdb1a863b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minegame">
+      <UniqueIdentifier>{335feead-2701-42ff-8ea1-a5e1fbc1a910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minegame">
+      <UniqueIdentifier>{78c0b141-a302-45ea-90e7-a1a76128de44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minegame\gfx">
+      <UniqueIdentifier>{96f4f7b1-c3bd-4ad2-a5b8-2ff04de1df03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minegame\gfx">
+      <UniqueIdentifier>{0717dfc5-7892-4be5-9210-7c9339d2aebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minegame\model">
+      <UniqueIdentifier>{874f3c36-95c2-4852-a8dc-dbb969c257fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minegame\model">
+      <UniqueIdentifier>{dc684bda-2cda-4f4b-a9a3-a7aea0135216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minegame\model\interfaces">
+      <UniqueIdentifier>{b66594d8-2535-4721-83cf-36b76a27a597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minegame\model\gembuilders">
+      <UniqueIdentifier>{c27cded0-3dea-4c1d-b497-4f63f0e0d2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minegame\model\gembuilders">
+      <UniqueIdentifier>{65f9852d-5586-4bd9-9d93-de1b6a9f34aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minegame\input">
+      <UniqueIdentifier>{9cb4afcd-1963-4903-9ac5-bc2435223315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minegame\model\scenes">
+      <UniqueIdentifier>{ced78633-c2eb-450a-a782-3cc78c3cd851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minegame\model\scenes\minegamescene">
+      <UniqueIdentifier>{791baac8-630c-4bd9-98f9-15c48d70c9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minegame\model\scenes\minegamescene\states">
+      <UniqueIdentifier>{7ea0afdb-86c4-4041-b159-405dbe478cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minegame\model\scenes">
+      <UniqueIdentifier>{c6762fad-46bb-4441-98cf-bab0ba5415c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minegame\model\scenes\minegamescene">
+      <UniqueIdentifier>{36b6a661-cdc9-45e4-b819-87bd822ae34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minegame\model\scenes\minegamescene\states">
+      <UniqueIdentifier>{ae21066c-e667-431b-ae26-d16003921096}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\SdlWindow.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\Engine.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\Font.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\GlContext.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\Sdl.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\SdlSurface.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="MMSprite.cpp">
+      <Filter>Source Files\minegame\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="MMSpriteFactory.cpp">
+      <Filter>Source Files\minegame\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files\minegame\model</Filter>
+    </ClCompile>
+    <ClCompile Include="GemSocket.cpp">
+      <Filter>Source Files\minegame\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Gem.cpp">
+      <Filter>Source Files\minegame\model</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomUtils.cpp">
+      <Filter>Source Files\minegame</Filter>
+    </ClCompile>
+    <ClCompile Include="GemFactory.cpp">
+      <Filter>Source Files\minegame\model</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleGemBuilder.cpp">
+      <Filter>Source Files\minegame\model\gembuilders</Filter>
+    </ClCompile>
+    <ClCompile Include="MineGame.cpp">
+      <Filter>Source Files\minegame</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\minegame\input</Filter>
+    </ClCompile>
+    <ClCompile Include="MineGameScene.cpp">
+      <Filter>Source Files\minegame\model\scenes\minegamescene</Filter>
+    </ClCompile>
+    <ClCompile Include="MineGameSceneState.cpp">
+      <Filter>Source Files\minegame\model\scenes\minegamescene\states</Filter>
+    </ClCompile>
+    <ClCompile Include="MMSTextSprite.cpp">
+      <Filter>Source Files\minegame\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleMineGameSceneState.cpp">
+      <Filter>Source Files\minegame\model\scenes\minegamescene\states</Filter>
+    </ClCompile>
+    <ClCompile Include="FillingMineGameSceneState.cpp">
+      <Filter>Source Files\minegame\model\scenes\minegamescene\states</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchingMineGameSceneState.cpp">
+      <Filter>Source Files\minegame\model\scenes\minegamescene\states</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\external\include\king\Engine.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\Font.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\GlContext.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\Sdl.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\SdlSurface.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\SdlWindow.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\Updater.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISprite.h">
+      <Filter>Header Files\minegame\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="MMSprite.h">
+      <Filter>Header Files\minegame\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="ISpriteFactory.h">
+      <Filter>Header Files\minegame\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="MMSpriteFactory.h">
+      <Filter>Header Files\minegame\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>Header Files\minegame\model\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Header Files\minegame\model\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdateable.h">
+      <Filter>Header Files\minegame\model\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files\minegame\model</Filter>
+    </ClInclude>
+    <ClInclude Include="GemSocket.h">
+      <Filter>Header Files\minegame\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Gem.h">
+      <Filter>Header Files\minegame\model</Filter>
+    </ClInclude>
+    <ClInclude Include="GemType.h">
+      <Filter>Header Files\minegame\model</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomUtils.h">
+      <Filter>Header Files\minegame</Filter>
+    </ClInclude>
+    <ClInclude Include="MineConstants.h">
+      <Filter>Header Files\minegame</Filter>
+    </ClInclude>
+    <ClInclude Include="IGemBuilder.h">
+      <Filter>Header Files\minegame\model\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleGemBuilder.h">
+      <Filter>Header Files\minegame\model\gembuilders</Filter>
+    </ClInclude>
+    <ClInclude Include="GemFactory.h">
+      <Filter>Header Files\minegame\model</Filter>
+    </ClInclude>
+    <ClInclude Include="MineGame.h">
+      <Filter>Header Files\minegame</Filter>
+    </ClInclude>
+    <ClInclude Include="MineGameScene.h">
+      <Filter>Header Files\minegame\model\scenes\minegamescene</Filter>
+    </ClInclude>
+    <ClInclude Include="MineGameSceneState.h">
+      <Filter>Header Files\minegame\model\scenes\minegamescene\states</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\minegame</Filter>
+    </ClInclude>
+    <ClInclude Include="MMSTextSprite.h">
+      <Filter>Header Files\minegame\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="FillingMineGameSceneState.h">
+      <Filter>Header Files\minegame\model\scenes\minegamescene\states</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleMineGameSceneState.h">
+      <Filter>Header Files\minegame\model\scenes\minegamescene\states</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchingMineGameSceneState.h">
+      <Filter>Header Files\minegame\model\scenes\minegamescene\states</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Worktest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
